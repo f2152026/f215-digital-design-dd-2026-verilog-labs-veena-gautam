@@ -22,11 +22,14 @@
 // Gate-level model of a 1-bit full adder with gate delays.
 
 module FA_Gate(
+
   input a,
   input b,
   input cin,
+
   output sum,
   output cout
+
 );
 
   wire ps, pc1, pc2;
